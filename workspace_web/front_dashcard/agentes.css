@@ -1,0 +1,14 @@
+.linhaPar{
+    background-color: darkgrey;
+}
+
+.linhaImpar{
+    background-color: lightgray;
+}
+
+.container-fluid{
+    background-color:orange;
+    border-radius: 30px;
+    
+}
+.container-fluid{ margin: 20px 0 0 20px; list-style:none; padding-right: 500px ; } .link_ajudamos{ position: relative; /* Para que a imagem não saia fora do link */ display:block; padding:5px; border:1px #999999 solid; background-color: #CCCCCC; text-decoration:none; color:#FFFFFF; padding-right: 200px; } .link_ajudamos:hover{ background-color:#999999; border-radius: 20px; } .link_ajudamos span{ display:none; /* Aqui você define que todo SPAN que estiver dentro de um A estará invisível */ } .link_ajudamos:hover span{ display:block; /* Aqui você diz que ao passar o mouse sobre o link, colocar um display no span dentro desse link */ position:absolute; /* Para você poder posicionar ao queira, sem quebrar o layour em volta */ top: 0px; /* Para ficar na mesma altura do link */ left: 100%; /* Empurra a imagem para fora do link, ficando ao seu lado */ border:1px #CCCCCC solid; /* Estilo extra, lembrando que você pode colocar qualquer estilo nesse elemento */ }    

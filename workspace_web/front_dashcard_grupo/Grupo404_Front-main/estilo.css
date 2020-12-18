@@ -1,0 +1,29 @@
+label{
+    background-color: #0D6EFD;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: -50px;
+    color: white;
+    z-index: 10px;
+}
+
+nav { background-color:black;
+    color: white
+
+}
+
+#nomeAgente{
+    border-left: 6px solid rgb(0, 0, 0);
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: -10;
+}
+#volumeAgente{
+    padding-left: 6px 
+    background-color: black;
+}

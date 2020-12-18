@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"
+        integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="
+        crossorigin="anonymous"></script>
+
+    <script src="dashboard.js"></script>
+    <link rel="stylesheet" href="dashboard.css">
+
+    <title>.: DashBoard :.</title>
+</head>
+
+<body onload="carregaDash()">
+    <div class="container">
+        <div class="row">
+            <div class="col-6  text-center">
+                <h2>DashBoard do Agente Financeiro</h2>
+            </div>
+        </div>
+
+        <label for="nomeAgente">Agente</label>
+        <div class="row">
+            <div class="col-12" id="nomeAgente">
+                ***
+            </div>
+        </div>
+        <br>
+        <label for="volumeAgente">Volume Transacional</label>
+        <div class="row">
+            <div class="col-12" id="volumeAgente">
+                ***
+            </div>
+        </div>
+        <br>
+        <label for="sucessoAgente">Sucesso</label>
+        <div class="row">
+            <div class="col-12" id="sucessoAgente">
+                ***
+            </div>
+        </div>
+        <br>
+        <label for="falhasAgente">Falhas</label>
+        <div class="row">
+            <div class="col-12" id="falhasAgente">
+                ***
+            </div>
+        </div>
+        <br>
+        <label for="fraudesAgente">Fraudes</label>
+        <div class="row">
+            <div class="col-12" id="fraudesAgente">
+                ***
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <canvas id="meuGrafico" width="100%"></canvas>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

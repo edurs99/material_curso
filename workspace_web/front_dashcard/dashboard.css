@@ -1,0 +1,43 @@
+label{
+    background-color: #0D6EFD;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: -50px;
+    color: white;
+    z-index: 10px;
+}
+
+#nomeAgente{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: -10;
+}
+#volumeAgente{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: -10;
+}
+#sucessoAgente{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: -10;
+}
+#falhasAgente{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: -10;
+}
+#fraudesAgente{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: -10;
+}

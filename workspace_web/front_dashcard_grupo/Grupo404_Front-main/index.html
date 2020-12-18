@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <title>.: Sistema DashCard :.</title>
+
+
+
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light" style="color: #FFFFFF; background-color:black">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-start">
+                <a class="navbar-brand" style="color:  #FFFFFF;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    padding-inline-start: 40px">
+                    <img src="404error1.png" height="50px">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <table border="0" with="100%" cellpadding="5" cellspacing="10">
+        <tr>
+            <div class="mb-3">
+                <div class="col-12 text-center">
+                    <h2><br>Sistema DashCard</h2>
+                </div>
+            </div>
+        </tr>
+    </table>
+    <table border="0" with="100%" cellpadding="5" cellspacing="10"> 
+        <tr>
+            <td>
+                <img src="senha.png" with="100%">
+            </td>
+            <td>
+                <div class="mb-3">
+                    <label for="txtLogin" class="form-label">Seu Email ou RACF</label>
+                    <input type="text" class="form-control" id="txtLogin" aria-describedby="loginHelp">
+                    <div id="loginHelp" class="form-text">Em acordo com as política de segurança coporativa.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="txtSenha" class="form-label">Sua senha</label>
+                    <input type="password" class="form-control" id="txtSenha">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="button" onclick="logar()" class="btn btn-primary">Entrar</button>
+            </td>
+        </tr>
+    </table>
+    <div class="row">
+
+        <div class="col-12 text-center">
+            <h3 id="msgErro">...</h3>  
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

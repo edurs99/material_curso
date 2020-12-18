@@ -1,0 +1,85 @@
+p{
+    color:blue;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    /*background-color: yellow;*/
+}
+body{
+    background-color:rgb(239, 241, 247);
+}
+
+.menu{
+    color:rgb(18, 0, 78);
+    font-size: 12px;
+    font-family: geneva;
+    font-weight: bold;
+}
+
+.lista{
+    color:rgb(80, 4, 57);
+    font-size:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+label{
+    font-weight: bold;
+    color:red;
+    font-size: 12px;
+}
+
+span{
+    font-weight: bold;
+    color:red;
+    font-size: 12px;  
+}
+
+
+#form_contato{
+    background-color: rgb(232, 235, 194);
+}
+
+.campo_nome{
+    position: absolute;
+    left:80px;
+    background-color: yellow;
+    width: 250px;
+}
+
+.campo_email{
+    position: absolute;
+    left:80px;
+    background-color: yellow;
+    width: 300px;  
+}
+
+.campo_senha{
+    position: absolute;
+    left:80px;
+    background-color: yellow;
+    width: 50px;  
+}
+.container{
+    border:3px solid red;
+    width: 500px;
+}
+
+.div1{
+    background-color: yellow;
+}
+
+.div2{
+    background-color: green;
+}
+
+.div3{
+    background-color: rgb(91, 106, 248);
+}
+
+.div4{
+    background-color: rgb(228, 99, 87);
+}
+
+
